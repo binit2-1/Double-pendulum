@@ -1,5 +1,5 @@
 <div align="center">
-    <video src="assets/ pendulum.mp4" width="360" height="240" controls>
+    <video src="assets/pendulum.mp4" width="360" height="240" controls>
         Your browser does not support the video tag.
     </video>
 </div>
