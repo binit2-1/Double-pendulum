@@ -1,0 +1,11 @@
+# Compiled output
+bin/
+car-dodger
+
+# Object files (if you start compiling multiple .cpp files later)
+*.o
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
