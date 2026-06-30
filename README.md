@@ -1,12 +1,13 @@
+# Double Pendulum
+
+A real-time simulation of a double pendulum built with C++ and [raylib](https://www.raylib.com/). For large angles the system is chaotic; for small angles it behaves like a linear oscillator. The trajectory of the lower mass is traced in red to reveal the complex, non-repeating motion.
+
 <div align="center">
     <video src="https://github.com/user-attachments/assets/d0842082-f240-4b72-938e-9f8cf8e4bda7" width="360" height="240" controls autoplay loop>
         Your browser does not support the video tag.
     </video>
 </div>
 
-# Double Pendulum
-
-A real-time simulation of a double pendulum built with C++ and [raylib](https://www.raylib.com/). For large angles the system is chaotic; for small angles it behaves like a linear oscillator. The trajectory of the lower mass is traced in red to reveal the complex, non-repeating motion.
 
 ## Physics
 
