@@ -17,39 +17,7 @@ The rods are massless and rigid, the bobs are point masses. The equations of mot
 
 The two second-order ODEs are converted into four first-order ODEs by defining angular velocities `ω₁ = θ₁'` and `ω₂ = θ₂'`, then integrated forward in time each frame using a simple Euler method (`step(dt)` in the source).
 
-## Build
+## Mental Model
 
-### Prerequisites
-
-- **g++** (C++17 or later)
-- **raylib** and its dependencies (OpenGL, X11, pthreads)
-
-On Debian/Ubuntu:
-
-```bash
-sudo apt install g++ libraylib-dev
-```
-
-### Compile and run
-
-```bash
-make          # compile
-make start    # compile and run
-```
-
-Or manually:
-
-```bash
-g++ -Wall -std=c++17 src/*.cpp -o bin/DoublePendulum -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -O3 -s
-./bin/DoublePendulum
-```
-
-To remove the build artifact:
-
-```bash
-make clean
-```
-
-## Controls
-
-- Close the window to exit. The pendulum starts at random angles within ±90°.
+The Rough sketches and resolutions I did!!
+<img width="1065" height="998" alt="image" src="https://github.com/user-attachments/assets/3a708a62-bef5-4d45-8307-9f659ecf82a6" />
